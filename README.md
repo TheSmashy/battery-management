@@ -4,7 +4,7 @@ This is my personal battery management system for high-drain lithium-ion cells u
 
 ---
 
-## 🔋 Battery Inventory & Tracking
+## Battery Inventory & Tracking
 
 - **Spreadsheet-based**:
   - Each cell tracked by serial, chemistry, purchase date, and internal resistance (IR)
@@ -16,7 +16,7 @@ This is my personal battery management system for high-drain lithium-ion cells u
 
 ---
 
-## 🧠 Host-to-Cell Mapping
+## Host-to-Cell Mapping
 
 - **Mapping sheet**:
   - Each host assigned a cell ID
@@ -26,7 +26,7 @@ This is my personal battery management system for high-drain lithium-ion cells u
 
 ---
 
-## 🧼 Charging & Cleaning Protocol
+## Charging & Cleaning Protocol
 
 - **Charger**: XTAR VC4SL
 - **Setup**:
@@ -34,10 +34,12 @@ This is my personal battery management system for high-drain lithium-ion cells u
   - Microfiber wipe of contacts before IR test
 - **Notes**:
   - XTAR IR can be flaky—prep helps reduce misreads
+  - Use a high quality 18W QC3.0 charger
+  - Use a high quality USB C cable (included cable has damaged units)
 
 ---
 
-## 🔁 Maintenance Routine
+## Maintenance Routine
 
 - **Quarterly** "Check Cells" task:
   - Full inspection of stockpile
@@ -48,7 +50,7 @@ This is my personal battery management system for high-drain lithium-ion cells u
 
 ---
 
-## 🧪 Runtime & Performance
+## Runtime & Performance
 
 - Notes and expected runtime for Group 10 UI (1%-10%-35%-100%)
 - Heat and voltage sag tracked for 5A+ lights
@@ -56,7 +58,7 @@ This is my personal battery management system for high-drain lithium-ion cells u
 
 ---
 
-## 🛡️ Safety Considerations
+## Safety Considerations
 
 - Never exceed CDR of cell vs light draw
 - Always use trusted brands (Samsung, Vapcell, LG)
@@ -64,15 +66,7 @@ This is my personal battery management system for high-drain lithium-ion cells u
 
 ---
 
-## 🚧 In Progress
-
-- TIR lens tests for S2+ MAO w/ 519A
-- Comparing H16 vs M11 v2 in 7135×8 lights
-- Testing SST20 vs LH351D w/ 15° and 30° optics
-
----
-
-## 📄 License
+## License
 
 Licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
 
